@@ -10,14 +10,14 @@
   })();
 </script>
 
-<script src="/config.d4d4d9498fdefb2720f6.js"></script>
+<script src="/config.610f85e6c06ff9fd7722.js"></script>
 <!-- hexo injector head_begin end -->
 <meta charset="utf-8">
 <title>Power Pages与Azure Application Insights的集成 - City South</title>
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="canonical" href="https://blog.citysouth.cc/2024/01/09/integrate-application-insights-with-power-pages/">
-<link rel="icon" type="image/x-icon" href="//ichrisj.gitee.io/reslib/images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <meta name="description" content="随着Power Pages的发展, 它让企业可以在Power Platform的平台上几乎可以连接到它想接触到的所有用户。Power Pages串联了企业内部与外部的交互. 外部用户不在需要与企业代表而直接向Dataverse提供信息. Power Pages允许用户匿名访问或者以它偏爱的方式登录访问. 本文我们将介绍Power Pages的admin如何使用某个监控产品, 通过对用户流量和与Po">
 <meta property="og:type" content="website">
@@ -26,16 +26,16 @@
 <meta property="og:site_name" content="City South">
 <meta property="og:description" content="随着Power Pages的发展, 它让企业可以在Power Platform的平台上几乎可以连接到它想接触到的所有用户。Power Pages串联了企业内部与外部的交互. 外部用户不在需要与企业代表而直接向Dataverse提供信息. Power Pages允许用户匿名访问或者以它偏爱的方式登录访问. 本文我们将介绍Power Pages的admin如何使用某个监控产品, 通过对用户流量和与Po">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://ichrisj.gitee.io/reslib/images/thumbnails/integrate-application-insights-with-power-pages.jpg">
+<meta property="og:image" content="https://blog.citysouth.cc/images/thumbnails/integrate-application-insights-with-power-pages.jpg">
 <meta property="article:published_time" content="2024-01-09T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-01-12T18:15:44.806Z">
+<meta property="article:modified_time" content="2024-11-02T17:03:55.906Z">
 <meta property="article:author" content="City South">
 <meta property="article:tag" content="Power Apps Portal">
 <meta property="article:tag" content="Power Pages">
 <meta property="article:tag" content="Application Insights">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://ichrisj.gitee.io/reslib/images/thumbnails/integrate-application-insights-with-power-pages.jpg">
-<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"City South","description":"Just make things happen!","image":"https://ichrisj.gitee.io/reslib/images/avatar.png"},"url":"https://blog.citysouth.cc","image":"https://ichrisj.gitee.io/reslib/images/avatar.png","description":"城南的北","author":{"@type":"Person","name":"City South","description":"Just make things happen!","image":"https://ichrisj.gitee.io/reslib/images/avatar.png"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"","url":"https://blog.citysouth.cc/2024/01/09/integrate-application-insights-with-power-pages/","headline":"Power Pages与Azure Application Insights的集成","image":"https://ichrisj.gitee.io/reslib/images/thumbnails/integrate-application-insights-with-power-pages.jpg","datePublished":"2024-01-09T00:00:00.000Z","dateModified":"2024-01-12T18:15:44.806Z","keywords":"Power Apps Portal,Power Pages,Application Insights","description":"城南的北","publisher":{"@type":"Organization","name":"City South","logo":{"@type":"ImageObject","url":"https://ichrisj.gitee.io/reslib/images/avatar.png"}},"author":{"@type":"Person","name":"City South","description":"Just make things happen!","image":"https://ichrisj.gitee.io/reslib/images/avatar.png"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.citysouth.cc/2024/01/09/integrate-application-insights-with-power-pages/"},"thumbnailUrl":"https://ichrisj.gitee.io/reslib/images/thumbnails/integrate-application-insights-with-power-pages.jpg"}]</script>
+<meta name="twitter:image" content="https://blog.citysouth.cc/images/thumbnails/integrate-application-insights-with-power-pages.jpg">
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"WebSite","publisher":{"@type":"Person","name":"City South","description":"Just make things happen!","image":"https://blog.citysouth.cc/images/avatar.png"},"url":"https://blog.citysouth.cc","image":"https://blog.citysouth.cc/images/avatar.png","description":"城南的北","author":{"@type":"Person","name":"City South","description":"Just make things happen!","image":"https://blog.citysouth.cc/images/avatar.png"},"inLanguage":{"@type":"Language","alternateName":"en"}},{"@context":"http://schema.org","@type":"Article","articleSection":"","url":"https://blog.citysouth.cc/2024/01/09/integrate-application-insights-with-power-pages/","headline":"Power Pages与Azure Application Insights的集成","image":"/images/thumbnails/integrate-application-insights-with-power-pages.jpg","datePublished":"2024-01-09T00:00:00.000Z","dateModified":"2024-11-02T17:03:55.906Z","keywords":"Power Apps Portal,Power Pages,Application Insights","description":"城南的北","publisher":{"@type":"Organization","name":"City South","logo":{"@type":"ImageObject","url":"https://blog.citysouth.cc/images/avatar.png"}},"author":{"@type":"Person","name":"City South","description":"Just make things happen!","image":"https://blog.citysouth.cc/images/avatar.png"},"inLanguage":{"@type":"Language","alternateName":"en"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.citysouth.cc/2024/01/09/integrate-application-insights-with-power-pages/"},"thumbnailUrl":"/images/thumbnails/integrate-application-insights-with-power-pages.jpg"}]</script>
 <script async src="//www.googletagmanager.com/gtag/js?id=G-N6KVDV6YMX"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','G-N6KVDV6YMX');</script>
 <!-- hexo injector head_end start --><style is="theme">html{--inside-accent-color:#2a2b33;--inside-foreground-color:#363636;--inside-border-color:#e0e0e0;--inside-background:#f3f6f7;--inside-sidebar-background:#2a2b33;--inside-card-background:#fff;--inside-font-base:'Josefin Sans','PingFang SC','Microsoft YaHei';--inside-font-logo:Lobster,cursive,'Josefin Sans','PingFang SC','Microsoft YaHei';--inside-font-menu:IM Fell DW Pica SC,'Josefin Sans','PingFang SC','Microsoft YaHei';--inside-font-heading:impact,'Josefin Sans','PingFang SC','Microsoft YaHei';--inside-font-label:Sarpanch,'Josefin Sans','PingFang SC','Microsoft YaHei';--inside-font-code:'Fira Code',Consolas,monospace;--inside-font-print:'PingFang SC','Microsoft YaHei';--inside-content-width:660px;--inside-highlight-00:#ffffff;--inside-highlight-01:#e0e0e0;--inside-highlight-02:#d6d6d6;--inside-highlight-03:#8e908c;--inside-highlight-04:#969896;--inside-highlight-05:#4d4d4c;--inside-highlight-06:#282a2e;--inside-highlight-07:#1d1f21;--inside-highlight-08:#c82829;--inside-highlight-09:#f5871f;--inside-highlight-0a:#eab700;--inside-highlight-0b:#718c00;--inside-highlight-0c:#3e999f;--inside-highlight-0d:#4271ae;--inside-highlight-0e:#8959a8;--inside-highlight-0f:#a3685a;--inside-card-color:#fff;--inside-accent-color-005:rgba(42,43,51,.05);--inside-accent-color-01:rgba(42,43,51,.1);--inside-accent-color-02:rgba(42,43,51,.2);--inside-accent-color-04:rgba(42,43,51,.4);--inside-accent-color-08:rgba(42,43,51,.8)}</style><script src="/theme.9ecc9ab1.js"></script>
